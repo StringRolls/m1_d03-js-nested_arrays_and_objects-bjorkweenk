@@ -9,11 +9,19 @@ const designers = [
 // 1: name of a designer Bob
 //  ... your code here
 
+console.log(designers[0].name)
+
 // 2: Sarah' age
 //  ... your code here
 
+console.log(designers[1].name, designers[1].age)
+
 // 3: List of all designers' names
 //  ... your code here
+
+for (const currentDesigner of designers){
+  console.log(currentDesigner.name)
+}
 
 
 
